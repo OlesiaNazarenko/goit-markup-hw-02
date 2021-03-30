@@ -24,29 +24,6 @@ header {
   border-bottom-width: 1px;
   border-bottom-color: #e5e5e5;
 }
-/* Link Logo "WebStudio" */
-.logo span {
-  color: #2196f3;
-}
-header .logo {
-  position: absolute;
-  left: 215px;
-  top: 24px;
-}
-
-.logo {
-  width: 145px;
-  height: 31px;
-  font-family: Raleway;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 26px;
-  line-height: 31px;
-  /* identical to box height */
-  letter-spacing: 0.03em;
-  color: #000000;
-}
-/* Link Logo "WebStudio" */
 a:active,
 a:link,
 a:visited {
@@ -64,13 +41,38 @@ nav {
   position: absolute;
   width: 294px;
   height: 16px;
-  left: 400px;
+  left: 200px;
   top: 20px;
   font-weight: 600;
   font-size: 14px;
 }
+/* Link Logo "WebStudio" */
+.logo span {
+  color: #2196f3;
+}
+header nav .logo {
+  position: absolute;
+  top: 3px;
+  left: 50px;
+}
+
+.logo {
+  width: 145px;
+  height: 31px;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  /* identical to box height */
+  letter-spacing: 0.03em;
+  color: #000000;
+}
+/* Link Logo "WebStudio" */
 nav ul {
   display: flex;
+  position: relative;
+  left: 250px;
 }
 .nav_studio {
   position: absolute;
@@ -93,7 +95,7 @@ header .contacts {
   position: absolute;
   display: flex;
   height: 16px;
-  left: 1078px;
+  left: 990px;
   top: 20px;
 }
 header .contacts a:hover,
@@ -235,7 +237,7 @@ footer {
 footer .logo {
   position: relative;
   left: 215px;
-  top: 20px;
+  top: 50px;
   color: #ffffff;
 }
 
@@ -246,18 +248,18 @@ footer a:focus {
 address {
   position: relative;
   left: 215px;
-  top: 45px;
+  top: 65px;
   font-style: normal;
 }
 footer .mail {
   position: relative;
   left: 215px;
-  top: 65px;
+  top: 85px;
 }
 footer .phone {
   position: relative;
   left: 78px;
-  top: 100px;
+  top: 120px;
 }
 
 footer .phone:link,
@@ -334,7 +336,7 @@ footer .mail:focus {
   height: 101px;
   margin-right: 10px;
 }
-.qualities h2 {
+.qualities h3 {
   font-weight: bold;
   font-size: 14px;
   line-height: 16px;
