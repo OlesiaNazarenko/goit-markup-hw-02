@@ -6,78 +6,89 @@
     <link rel="stylesheet" type="text/css" href="css/styles.css">
     <link rel="stylesheet" type="text/css" href="ccs/modern-normalize.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Raleway&family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet" />
     <title>Студия</title>
 </head>
 <body>
     <header>
         <nav>
             <a class="logo" href="index.html"><span>Web</span>Studio</a>
-            <ul>
-                <li class="nav_studio"><a href="index.html">Студия</a></li>
-                <li class="nav_portfolio"><a href="portfolio.html">Портфолио</a></li>
-                <li class="nav_contacts"><a href="">Контакты</a></li>
+            <ul class="nav-list">
+                <li class="nav-studio"><a href="index.html">Студия</a></li>
+                <li class="nav-portfolio"><a href="portfolio.html">Портфолио</a></li>
+                <li class="nav-contacts"><a href="">Контакты</a></li>
             </ul>
         </nav>
-        <ul class="contacts">
+        <ul class="list-contacts">
             <li><a class="mail" href="mailto:info@devstudio.com" >info@devstudio.com</a></li>
             <li><a class="phone" href="tel:+380961111111" >+38 096 111 11 11</a></li>
         </ul>
     </header>
-    <main class="main_portfolio">
-        <ul class="filter">
-            <li><input type="button" value="Все" class="filter_button"></li>
-            <li><input type="button" value="Веб-сайты" class="filter_button"></li>
-            <li><input type="button" value="Приложения" class="filter_button"></li>
-            <li><input type="button" value="Дизайн" class="filter_button"></li>
-            <li><input type="button" value="Маркетинг" class="filter_button"></li>
+    <main class="main-portfolio">
+        <ul class="list-filter">
+            <li class="list-filter-item">
+                <input type="button" value="Все" class="filter-button">
+            </li>
+            <li class="list-filter-item">
+                <input type="button" value="Веб-сайты" class="filter-button">
+            </li>
+            <li class="list-filter-item">
+                <input type="button" value="Приложения" class="filter-button">
+            </li>
+            <li class="list-filter-item">
+                <input type="button" value="Дизайн" class="filter-button">
+            </li>
+            <li class="list-filter-item">
+                <input type="button" value="Маркетинг" class="filter-button">
+            </li>
         </ul>
         <section class="container">
-            <ul>
-                <li>
-                    <img src="images/portfolio/img.jpg" alt="Технокряк" width="370" />
-                    <p>Технокряк</p>
-                    <span>Веб-сайт</span>
+            <ul class="list-projects">
+                <li class="list-projects-item">
+                    <img class="project-img"  src="images/portfolio/img.jpg" alt="Технокряк" width="370" />
+                    <p class="list-project-subtitle">Технокряк</p>
+                    <span class="list-project-text">Веб-сайт</span>
                 </li>
-                <li>
-                    <img src="images/portfolio/img1.jpg" alt="Постер New Orlean vs Golden Star" width="370" />
-                    <p>Постер New Orlean vs Golden Star</p>
-                    <span>Дизайн</span>
+                <li class="list-projects-item">
+                    <img class="project-img" src="images/portfolio/img1.jpg" alt="Постер New Orlean vs Golden Star" width="370" />
+                    <p class="list-project-subtitle">Постер New Orlean vs Golden Star</p>
+                    <span class="list-project-text">Дизайн</span>
                 </li>
-                <li>
-                    <img src="images/portfolio/img2.jpg" alt="Ресторан Seafood" width="370" />
-                    <p>Ресторан Seafood</p>
-                    <span>Приложение</span>
+                <li class="list-projects-item">
+                    <img class="project-img" src="images/portfolio/img2.jpg" alt="Ресторан Seafood" width="370" />
+                    <p class="list-project-subtitle">Ресторан Seafood</p>
+                    <span class="list-project-text">Приложение</span>
                 </li>
-                <li>
-                    <img src="images/portfolio/img3.jpg" alt="Проект Prime" width="370" />
-                    <p>Проект Prime</p>
-                    <span>Маркетинг</span>
+                <li class="list-projects-item">
+                    <img class="project-img" src="images/portfolio/img3.jpg" alt="Проект Prime" width="370" />
+                    <p class="list-project-subtitle">Проект Prime</p>
+                    <span class="list-project-text">Маркетинг</span>
                 </li>
-                 <li> 
-                    <img src="images/portfolio/img4.jpg" alt="Проект Boxes" width="370" />
-                    <p>Проект Boxes</p>
-                    <span>Приложение</span>
+                 <li class="list-projects-item"> 
+                    <img class="project-img" src="images/portfolio/img4.jpg" alt="Проект Boxes" width="370" />
+                    <p class="list-project-subtitle">Проект Boxes</p>
+                    <span class="list-project-text">Приложение</span>
                 </li>
-                <li>
-                    <img src="images/portfolio/img5.jpg" alt="Inspiration has no Borders" width="370" />
-                    <p>Inspiration has no Borders</p>
-                    <span>Веб-сайт</span>
+                <li class="list-projects-item">
+                    <img class="project-img"  src="images/portfolio/img5.jpg" alt="Inspiration has no Borders" width="370" />
+                    <p class="list-project-subtitle">Inspiration has no Borders</p>
+                    <span class="list-project-text">Веб-сайт</span>
                 </li>
-                <li>
-                    <img src="images/portfolio/img6.jpg" alt="Издание Limited Edition" width="370" />
-                    <p>Издание Limited Edition</p>
-                    <span>Дизайн</span>
+                <li class="list-projects-item">
+                    <img class="project-img" src="images/portfolio/img6.jpg" alt="Издание Limited Edition" width="370" />
+                    <p class="list-project-subtitle">Издание Limited Edition</p>
+                    <span class="list-project-text">Дизайн</span>
                 </li>
-                <li>
-                    <img src="images/portfolio/img7.jpg" alt="Проект LAB" width="370" />
-                    <p>Проект LAB</p>
-                    <span>Маркетинг</span>
+                <li class="list-rojects-item">
+                    <img class="project-img" src="images/portfolio/img7.jpg" alt="Проект LAB" width="370" />
+                    <p class="list-project-subtitle">Проект LAB</p>
+                    <span class="list-project-text">Маркетинг</span>
                 </li>
-                <li>
-                    <img src="images/portfolio/img8.jpg" alt="Growing Business" width="370" />
-                    <p>Growing Business</p>
-                    <span>Приложение</span>
+                <li class="list-projects-item">
+                    <img class="project-img" src="images/portfolio/img8.jpg" alt="Growing Business" width="370" />
+                    <p class="list-project-subtitle">Growing Business</p>
+                    <span class="list-project-text">Приложение</span>
                 </li>
             </ul>
         </section>
