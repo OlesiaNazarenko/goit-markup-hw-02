@@ -20,7 +20,7 @@ body {
   font-style: normal;
   font-weight: var(--font-medium);
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--main-color);
 }
@@ -71,8 +71,7 @@ header .logo {
   font-style: normal;
   font-weight: var(--font-bold);
   font-size: 26px;
-  line-height: 31px;
-  /* identical to box height */
+  line-height: 1.19;
   letter-spacing: 0.03em;
   color: #000000;
 }
@@ -114,7 +113,7 @@ header .list-contacts {
   position: relative;
   width: 661px;
   padding: 30px 0 40px 0;
-  left: 250px;
+  left: 270px;
   display: flex;
   justify-content: space-between;
   
@@ -124,8 +123,7 @@ header .list-contacts {
   font-weight:500;
   font-size: 16px;
   font-family: var(--main-font);
-  line-height: 26px;
-  /* identical to box height, or 162% */
+  line-height: 1.62;
   border-color: transparent;
   border-radius: 5px;
   text-align: center;
@@ -141,7 +139,7 @@ header .list-contacts {
   
 }
 /*Section Projects*/
-.container {
+.projects {
   position: relative;
   width: 100%;
   margin-bottom: 70px;
@@ -161,22 +159,19 @@ header .list-contacts {
   margin: 0 0 30px 0;
   border-style: solid;
   border-width: 1px;
-  /*border-color: #eeeeee;*/
   border-color: #eeeeee;
 }
 .list-project-subtitle {
   font-weight: var(--font-bold);
   font-size: 18px;
-  line-height: 36px;
-  /* identical to box height, or 200% */
+  line-height: 2;
   margin: 15px 0 5px 24px;
   letter-spacing: 0.04em;
 }
 .list-project-text {
   font-weight: var(--font-normal);
   font-size: 16px;
-  line-height: 30px;
-  /* identical to box height, or 187% */
+  line-height: 1.87;
   letter-spacing: 0.03em;
   margin-left: 24px;
   color:var(--color3);
@@ -251,8 +246,7 @@ footer .mail:focus {
   top: 160px;
   font-weight: var(--font-ultra-bold);
   font-size: 44px;
-  line-height: 60px;
-  /* or 136% */
+  line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -271,10 +265,13 @@ footer .mail:focus {
   cursor: pointer;
   font-weight: var(--font-bold);
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.8;
   /* identical to box height, or 187% */
   letter-spacing: 0.06em;
   color: #ffffff;
+}
+.hero-button:hover{
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .qualities {
   position: relative;
@@ -295,6 +292,8 @@ footer .mail:focus {
   height: 101px;
 }
 .list-qualities-subtitle {
+  font-size: 14px;
+  line-height: 1.17;
   font-weight: var(--font-bold);
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -302,7 +301,7 @@ footer .mail:focus {
 }
 .list-qualities-text {
   font-weight: var(--font-normal);
-  line-height: 24px;
+  line-height: 1.7;
   /* or 171% */
   letter-spacing: 0.03em;
   color: var(--color3);
@@ -331,7 +330,7 @@ footer .mail:focus {
 .pictures-title {
   font-weight:var(--font-bold);
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
 }
@@ -369,7 +368,7 @@ footer .mail:focus {
 .team-subtitle,
 .team-text {
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.18;
   text-align: center;
 }
 .team-subtitle{font-weight: var(--font-medium);}
@@ -383,7 +382,7 @@ footer .mail:focus {
   left: 668px;
   font-weight:var(--font-bold);
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
 }
